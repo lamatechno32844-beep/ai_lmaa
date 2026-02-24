@@ -1,0 +1,62 @@
+Student Major Classification Using Random Forest
+Project Description
+
+This project aims to predict the student’s academic major (stu_group) based on academic, behavioral, and personal features using a Machine Learning classification model.
+
+The dataset includes multiple features such as:
+
+Academic scores (Math, English, Science, etc.)
+
+Study time
+
+Attendance
+
+Parental education
+
+Internet access
+
+Extracurricular activities
+
+Other student-related attributes
+
+Model Used: Random Forest Classifier
+
+In this project, the Random Forest algorithm was used for classification.
+
+Random Forest is an ensemble learning method that builds multiple decision trees and combines their predictions to produce a more accurate and stable result. Instead of relying on a single decision tree, it aggregates the results of many trees to reduce overfitting and improve generalization.
+
+The model was trained to classify students into their respective academic majors based on the input features.
+
+Preprocessing Steps
+
+Categorical (text) features were converted into numerical values using Label Encoding.
+
+The dataset was split into:
+
+80% Training Data
+
+20% Testing Data
+
+The Random Forest model was trained using the training dataset.
+
+The model performance was evaluated using the testing dataset.
+
+Model Evaluation
+
+The model was evaluated using:
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+Class balancing techniques were applied to handle potential data imbalance and improve fairness across classes.
+
+Conclusion
+
+The Random Forest model achieved strong performance in predicting student majors. Due to its ensemble structure, it provides better robustness and reduced overfitting compared to a single decision tree model.
+
+Future improvements may include hyperparameter tuning and testing additional ensemble methods.
